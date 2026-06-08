@@ -1,0 +1,16 @@
+[project]
+name = "rag-agent"
+version = "0.1.0"
+description = "本地记忆RAG问答系统"
+requires-python = ">=3.10"
+dependencies = [
+    "langgraph>=0.2.0",
+    "langchain>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "dashscope>=1.20.0",
+    "numpy>=1.26.0",
+    "rank-bm25>=0.2.2",
+    "jieba>=0.42.1",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+]
